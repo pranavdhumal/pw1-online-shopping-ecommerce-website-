@@ -1,0 +1,328 @@
+/* Responsive code For Medium Devices  */
+
+@media (max-width: 770px) {
+  #navListItems {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-color: rgb(214, 237, 255);
+    padding: 80px 0 0 10px;
+    transition: 0.8s ease-in-out;
+  }
+
+  #arrowClose {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+  #navListItems li {
+    margin-bottom: 25px;
+  }
+  #navListItems.active {
+    right: 0;
+  }
+  .responsiveNav {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100px;
+    justify-content: space-evenly;
+  }
+  .responsiveNav li {
+    list-style: none;
+  }
+  #respBag {
+    display: none;
+  }
+  #arrowClose {
+    display: block;
+  }
+  #unqBanner .unqListItemThree {
+    width: 88%;
+  }
+  #adBanner .bannerOne {
+    height: 40vh;
+    width: 100%;
+  }
+  #adBanner .bannerTwo {
+    width: 101%;
+  }
+  #bg {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+  #bg h2 {
+    font-size: 35px;
+  }
+  #bg h1 {
+    font-size: 38px;
+  }
+  #bg p {
+    font-size: 14px;
+  }
+  #featuresContainer {
+    justify-content: center;
+  }
+  #featuresContainer .items {
+    margin: 15px 15px;
+  }
+  #footerContainer {
+    justify-content: flex-start;
+  }
+  #install {
+    margin-top: 50px;
+  }
+  #footerContainer .footerList .pay-play .play {
+    margin: 0 10px;
+  }
+  #aboutPage {
+    flex-direction: column;
+  }
+#aboutPage .aboutContent {
+  width: 100%;
+  
+  }
+#aboutPage .aboutImg {
+  width: 100%;
+  
+  }
+.aboutContent h1{
+  text-align: center;
+  }
+.aboutContent p{
+  text-align: justify;
+  }
+
+    /* contact page responsive  */
+
+    #detailsSection .mapdetailsIcons i {
+      margin: 5px 0;
+     
+    }
+    .section-p1 {
+      padding: 40px 20px;
+  }
+
+  .inputBoxes input {
+    width: 400px;
+}
+
+form button {
+  margin-top: 15px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive for very Small Devices  */
+
+
+  @media (max-width:380px){
+    #footerContainer .footerList .pay-play .play {
+      margin: 10px 0;
+  }
+  .inputBoxes input {
+    width: 300px;
+    }
+    .members{
+      margin-top: 40px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Code for Small Devices  */
+
+@media (max-width: 415px) {
+  #bg {
+    height: 50vh;
+    padding: 0 15px;
+  }
+  #bg h2 {
+    font-size: 25px;
+  }
+  #bg h1 {
+    font-size: 38px;
+  }
+  #bg p {
+    font-size: 11px;
+  }
+  #featuresContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  #featursProducts .define h1 {
+    font-size: 25px;
+  }
+  .section-p1 {
+    padding: 40px 10px;
+  }
+  .featuresProcutsItems {
+    width: 180px;
+
+    padding: 15px 12px;
+    margin: 15px 0;
+  }
+  #repairService h6 {
+    font-size: 20px;
+  }
+  #repairService h4 {
+    font-size: 18px;
+  }
+  #repairService {
+    height: 180px;
+  }
+  .section-p1 {
+    padding: 18px 10px;
+  }
+  #adBanner .bannerOne {
+    min-width: 394px;
+    height: 22vh;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  #adBanner .bannerOne h2 {
+    font-size: 30px;
+  }
+  #unqBanner .unqListItemThree {
+    width: 77%;
+  }
+  #navBar {
+    padding: 10px 20px;
+  }
+  #footerContainer .footerList h5 {
+    padding: 10px;
+  }
+  .footerList {
+    margin: 10px;
+  }
+  #productDetails {
+    flex-direction: column;
+  }
+  #productDetails .contentSection {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #productDetails .imageSection {
+    width: 100%;
+  }
+  #productDetails .contentSection select {
+    margin: 18px 0;
+  }
+
+
+
+
+  /* blog Section  */
+
+
+
+  #blog .blogBox {
+    flex-direction: column;
+}
+.blogBox .imgBox {
+  width: 100%;
+ 
+ }
+.blogBox .contentDetails {
+  width: 100%;
+  
+ }
+#blog .blogBox {
+  margin: 150px 10px 0 10px;
+  
+}
+.blogBox .contentDetails {
+  margin: 50px 0;
+ 
+}
+.aboutContent h1{
+  font-size: 25px;
+}
+#our-app h1{
+  font-size: 30px;
+}
+
+  #aboutBanner p {
+    text-align: center;
+    margin: 20px 20px;
+
+}
+
+
+
+/* contact page  */
+
+#detailsSection {
+  flex-direction: column;
+}
+.parentHolder {
+  display: flex;
+  flex-direction: column;
+}
+#detailsSection .mapDetails {
+  width: 100%;
+  padding: 0 20px;
+}
+#detailsSection .mapContainer {
+  width: 100%;
+  margin: 20px 0;
+}
+#contactForm .parentHolder {
+  padding: 40px 10px;
+}
+.inputBoxes input {
+  width: 375px;
+}
+.members{
+  margin-top: 50px;
+}
+.members{
+margin-top: 40px;
+}
+
+
+
+}
